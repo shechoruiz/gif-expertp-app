@@ -16,8 +16,8 @@ const GifExpertApp = () => {
       <AddCategory setCategories={setCategories} />
       <hr />
       <ol>
-        {categories.map((value, id) => (
-          <GifGrid key={id} category={value}></GifGrid>
+        {categories.map((value) => (
+          <GifGrid key={value} category={value}></GifGrid>
         ))}
       </ol>
     </>
