@@ -34,6 +34,12 @@ exports[`Pruebas sobre el componente GifGrid 2. Debe mostrar iutems cuando se ca
       title="Cualquier cosa"
       url="https://localhost/cualquier/cosa.jpg"
     />
+    <GifGridItem
+      id="123"
+      key="123"
+      title="Cualquier cosa"
+      url="https://localhost/cualquier/cosa.jpg"
+    />
   </div>
 </Fragment>
 `;
